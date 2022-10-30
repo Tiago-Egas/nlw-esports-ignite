@@ -16,8 +16,12 @@ app.get('/ads', (request, response) => {
             name: 'Anúncio 2',
         },
         {
-            id: 2,
+            id: 3,
             name: 'Anúncio 3',
+        },
+        {
+            id: 4,
+            name: 'Anúncio 4',
         },
     ]);
 });
