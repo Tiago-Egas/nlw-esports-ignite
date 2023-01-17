@@ -1,5 +1,19 @@
+import './styles.css';
+
+interface ButtonProps {
+  title: string;
+}
+
+function Button(props: ButtonProps) {
+  return <button>{props.title}</button>;
+}
+
 function App() {
-  return <h1>Hello, NLW!</h1>;
+  return (
+    <div>
+      <button title='' />
+    </div>
+  );
 }
 
 export default App;
